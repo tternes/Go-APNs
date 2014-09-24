@@ -11,9 +11,9 @@ import (
 )
 
 const (
-	// The maximum size allowed for a notification payload is 256 bytes.
+	// The maximum size allowed for a notification payload is 2048 bytes.
 	// Any notifications larger than this limit are refused by Apple.
-	MAX_PAYLOAD_SIZE = 265
+	MAX_PAYLOAD_SIZE = 2048
 
 	// The highest notification identifier we can send. Since the identifier can
 	// only be 4 bytes long, this is the maximum value of a 32-bit unsigned integer.
